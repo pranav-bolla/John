@@ -7,7 +7,6 @@ import asyncio
 token = ''
 with open('token.txt') as f:
     token = f.read()
-print(token)
 
 target_user_id = 269964731706507274
 
