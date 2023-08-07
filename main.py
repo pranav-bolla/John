@@ -11,7 +11,7 @@ with open('token.txt') as f:
 target_user_id = 269964731706507274
 
 intents = discord.Intents.default()
-intents.message_content = True  # To listen to message content
+intents.messages = True  # To listen to message content
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
